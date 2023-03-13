@@ -1,4 +1,6 @@
+import GHC.Float ( divideFloat )
+
 main :: IO ()
 main = do
-  putStrLn "Hello, everybody!"
-  putStrLn ("Please look at my favorite odd numbers: " ++ show (filter odd [10..20]))
+  let c = divideFloat 15 7 :: Float
+  print c
