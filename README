@@ -1,0 +1,17 @@
+# Haskell Stuff
+Learning Haskell is painful and a complete waste of time... but I'm doing it anyway.
+
+### Installation
+Start by installing GHC (The compiler for Haskell) on your system. Refer to [https://www.haskell.org/ghcup](GHCup).
+
+Then, you can either just `build` or `build & run` the application by executing the following scripts:
+```bash
+# To build & run:
+sudo bash scripts/run
+# To just build:
+sudo bash scripts/build
+```
+
+### License
+This project is licensed under the [MIT]() license 2023.
+Refer to `./LICENSE` in the root directory of this project.

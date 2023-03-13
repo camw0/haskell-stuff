@@ -1,0 +1,3 @@
+#!/bin/bash
+ghc --make -o dist/main main.hs
+./dist/main
