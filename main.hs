@@ -1,9 +1,7 @@
-main :: IO ()
 main = do
-   print(get_num 10)
+   let arr = [1,2,3,6,6,3,2,6,7]
+   print (len arr)
 
-get_num :: Int -> IO ()
-get_num x = do
-   let smallerNum = x - 1
-   let square = smallerNum * smallerNum
-   print (get_num smallerNum)
+len :: [Integer] -> Integer
+len [] = 0
+len (_:xs) = 1 + len xs
