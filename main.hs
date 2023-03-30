@@ -1,1 +1,1 @@
-main = print("hi")
+main = putStrLn "Hi"
